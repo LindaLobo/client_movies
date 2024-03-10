@@ -1,0 +1,61 @@
+:root {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #dfcae1;
+}
+
+/* Clase del fondo de la tarjeta */
+.bg-body-tertiary {
+  background-color: #e5dde6 !important;
+}
+
+.btn-color {
+  background-color: #c0a0c3;
+  border-color: #c0a0c3;
+  --bs-btn-disabled-bg: #c0a0c3;
+  --bs-btn-disabled-border-color: #c0a0c3;
+}
+
+.btn-color:hover {
+  background-color: white;
+  color: #c0a0c3;
+  border-color: #c0a0c3;
+}
+/* ############################### */
+/* Clases de navbar */
+nav {
+  background-color: #8f7193;
+}
+/* ############################## */
+
+/* Clases actualizar la paginación */
+.pagination {
+  --bs-pagination-color: #ffffff;
+  --bs-pagination-bg: #8f7193;
+}
+
+.active > .page-link {
+  background-color: white;
+  color: #8f7193;
+  border-color: #8f7193;
+}
+/* ############################### */
+
+/* Clases detalle */
+
+.card-detalle {
+  min-height: 50vh;
+  background-color: #e5dde6;
+  border: #e5dde6;
+}
+/* ############################### */
+
+/* Clases que modifica el boton deshabilitado */
+.card {
+  --bs-card-border-color: #e5dde6;
+  text-align: justify;
+}
+/* ############################### */
